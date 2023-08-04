@@ -4,7 +4,8 @@
     "type": "project",
     "require-dev": {
         "behat/behat": "^3.13",
-        "phpunit/phpunit": "^10.3"
+        "phpunit/phpunit": "^10.3",
+        "symfony/var-dumper": "^6.3"
     },
     "license": "MIT",
     "autoload": {
