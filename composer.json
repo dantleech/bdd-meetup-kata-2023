@@ -1,0 +1,20 @@
+{
+    "name": "altovita/kata-meetup-bdd",
+    "description": "BDD Meetup Kata",
+    "type": "project",
+    "require-dev": {
+        "behat/behat": "^3.13",
+        "phpunit/phpunit": "^10.3"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Altovita\\KataMeetupBdd\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Altovita\\KataMeetupBdd\\Tests\\": "tests/"
+        }
+    }
+}
